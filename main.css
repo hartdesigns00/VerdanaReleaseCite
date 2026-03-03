@@ -1,3 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+body {
+    background-image: assets/GreenBG.jpeg');
+}
 .container {
 
 display: grid;
@@ -6,9 +17,8 @@ grid-template-columns: repeat(12, 1fr);
 grid-template-areas:
 "a a a a a a a a a a a a"
 "b b b b b b b b b b b b"
-"c c c c c c c c c c c c"
-"d d d d d d d d e e e e"
-"f f f f f f f f f f f f";
+"c c e e e e e e e e e e"
+"d d e e e e e e e e e e";
 
 gap: 1.25rem;
 }
@@ -17,5 +27,4 @@ gap: 1.25rem;
 .CreatorRelease { grid-area: b; }
 .purpose { grid-area: c; }
 .body { grid-area: d; }
-.features { grid-area: e; }
-.summary { grid-area: f; }
+.verdanaimage { grid-area: e; }
