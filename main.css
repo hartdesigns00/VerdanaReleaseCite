@@ -1,0 +1,21 @@
+.container {
+
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+
+grid-template-areas:
+"a a a a a a a a a a a a"
+"b b b b b b b b b b b b"
+"c c c c c c c c c c c c"
+"d d d d d d d d e e e e"
+"f f f f f f f f f f f f";
+
+gap: 1.25rem;
+}
+
+.header { grid-area: a; }
+.CreatorRelease { grid-area: b; }
+.purpose { grid-area: c; }
+.body { grid-area: d; }
+.features { grid-area: e; }
+.summary { grid-area: f; }
