@@ -20,7 +20,7 @@ body {
 display: grid;
 column-gap: 80px;
 grid-template-columns: repeat(12, 1fr);
-grid-template-rows: repeat(8, 86px);
+grid-template-rows: repeat(4, 100px);
 grid-template-areas:
 "a a a a a a a a a a a a"
 "b b b b b b b b b b b b"
@@ -29,9 +29,12 @@ grid-template-areas:
 
 }
 
+h1 {font-size: 128px;
+    white-space: nowrap;}
 .header { grid-area: a;} 
 .CreatorRelease { grid-area: b; }
 .purpose { grid-area: c; }
 .body { grid-area: d; 
-align-self: start;}
+align-self: start;
+size: 1fr;}
 .verdanaimage { grid-area: e; }
