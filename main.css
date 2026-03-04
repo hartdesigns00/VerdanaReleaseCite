@@ -10,7 +10,6 @@ body {
     background-image: url(Assets/GreenBG.jpeg);
     background-size: cover;
     background-position: center;
-
 }
 .container {
  max-width: 1440px;
@@ -20,12 +19,13 @@ body {
 display: grid;
 column-gap: 80px;
 grid-template-columns: repeat(12, 1fr);
-grid-template-rows: repeat(4, 100px);
+grid-template-rows: repeat(4, 80px);
 grid-template-areas:
 "a a a a a a a a a a a a"
 "b b b b b b b b b b b b"
 "c c c e e e e e e e e e"
-"d d d e e e e e e e e e";
+"d d d e e e e e e e e e"
+"f f f e e e e e e e e e";
 
 }
 
@@ -34,7 +34,6 @@ h1 {font-size: 128px;
 .header { grid-area: a;} 
 .CreatorRelease { grid-area: b; }
 .purpose { grid-area: c; }
-.body { grid-area: d; 
-align-self: start;
-size: 1fr;}
+.body { grid-area: d f;
+size: auto}
 .verdanaimage { grid-area: e; }
