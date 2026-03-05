@@ -34,6 +34,6 @@ h1 {font-size: 128px;
 .header { grid-area: a;} 
 .CreatorRelease { grid-area: b; }
 .purpose { grid-area: c; }
-.body { grid-area: d f;
-size: auto}
-.verdanaimage { grid-area: e; }
+.body { grid-area: d;}
+.verdanaimage { grid-area: e;
+                place-items: center;}
