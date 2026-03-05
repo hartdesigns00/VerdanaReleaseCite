@@ -7,7 +7,7 @@ img{
     display: block;
 }
 body {
-    background-image: url(Assets/GreenBG.jpeg);
+    background-image: url(Assets/GreenBG.jpg);
     background-size: cover;
     background-position: center;
 }
